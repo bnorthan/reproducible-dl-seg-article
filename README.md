@@ -1,5 +1,11 @@
-# reproducible-dl-seg-article
-This repo contains example for reproducible deep learning segmentation article
+# Reproducible deep learning article  
+
+Deep learning segmentation requires special focus on both reproducibility and repeatability. These two terms are often confused; they are related but different. 
+
+- Repeatability refers to whether the exact same result can be obtained when the experiment is performed with the same data, code, and setup. 
+- Reproducibility refers to whether similar scientific conclusions are reached when the experiment is performed with similar—but not identical—data or methods. 
+
+This repo contains examples of how to test reproducibility between deep learning segmentation approaches; that is, we run deep learning segmentation in slightly different ways to test how reproducible the results are across different architectures (e.g., Cellpose vs MicroSAM), different versions of Cellpose (v3 vs v4), different models (cyto2, cyto3, CellposeSAM), and different parameterizations (cellprob, tile sizes, watershed-related thresholds, etc.).
 
 ## Setup Instructions
 
