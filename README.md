@@ -52,28 +52,10 @@ The kernel will now have access to all native libraries!
 Test images for the examples are hosted on Dropbox. 
 
 - Preview on Dropbox (HTML):
-	<a href="https://www.dropbox.com/scl/fo/qc8viopyji4nhdftb9izo/AJAjsIpEGbwKuhawQTPjUYs?rlkey=v1jj01tmneti74a28ervptjhx&amp;st=bbxezz5w&amp;dl=0">Open test images on Dropbox</a>
+
+https://www.dropbox.com/scl/fo/t737rmz43wdyeaq03p3k5/AK0UPRFxvwz0FiQu4oa2vmI?rlkey=5cs7w4esi77tsz6if69dqbig7&st=juq9k0ng&dl=0
+
+	<a href="https://www.dropbox.com/scl/fo/t737rmz43wdyeaq03p3k5/AK0UPRFxvwz0FiQu4oa2vmI?rlkey=5cs7w4esi77tsz6if69dqbig7&st=juq9k0ng&dl=0">Open test images on Dropbox</a>
 - Direct download (HTML):
-	<a href="https://www.dropbox.com/scl/fo/qc8viopyji4nhdftb9izo/AJAjsIpEGbwKuhawQTPjUYs?rlkey=v1jj01tmneti74a28ervptjhx&amp;st=bbxezz5w&amp;dl=1">Download test images (.zip)</a>
-- Suggested location after download: `data/test_images`
-
-Setup steps (PowerShell):
-
-```powershell
-# Create a folder for test images
-New-Item -ItemType Directory -Force -Path data\test_images | Out-Null
-
-# Option A: Manually download from the Dropbox link above and extract into data\test_images
-
-# Option B: Use the direct-download link above (dl=1):
-curl.exe -L "https://www.dropbox.com/scl/fo/qc8viopyji4nhdftb9izo/AJAjsIpEGbwKuhawQTPjUYs?rlkey=v1jj01tmneti74a28ervptjhx&st=bbxezz5w&dl=1" -o data\test_images.zip
-# Expand-Archive -Path data\test_images.zip -DestinationPath data\test_images -Force
-```
-
-Optional: set an environment variable to point tools/notebooks at your test images directory.
-
-```powershell
-$env:TEST_IMAGES_DIR = (Resolve-Path .\data\test_images).Path
-```
-
-If you share the final Dropbox URL, I can replace the placeholder above and, if needed, update notebooks to reference `TEST_IMAGES_DIR` or `data/test_images` consistently.
+	<a href="https://www.dropbox.com/scl/fo/t737rmz43wdyeaq03p3k5/AK0UPRFxvwz0FiQu4oa2vmI?rlkey=5cs7w4esi77tsz6if69dqbig7&st=juq9k0ng&dl=1">Download test images (.zip)</a>
+- For relative links in the examples to work properly, after downloading put the image in this repo under: `data/test_images`
