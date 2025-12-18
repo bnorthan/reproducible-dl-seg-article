@@ -59,8 +59,6 @@ Test images for the examples are hosted on Dropbox.
 
 - Preview on Dropbox (HTML):
 
-https://www.dropbox.com/scl/fo/t737rmz43wdyeaq03p3k5/AK0UPRFxvwz0FiQu4oa2vmI?rlkey=5cs7w4esi77tsz6if69dqbig7&st=juq9k0ng&dl=0
-
 	<a href="https://www.dropbox.com/scl/fo/t737rmz43wdyeaq03p3k5/AK0UPRFxvwz0FiQu4oa2vmI?rlkey=5cs7w4esi77tsz6if69dqbig7&st=juq9k0ng&dl=0">Open test images on Dropbox</a>
 - Direct download (HTML):
 	<a href="https://www.dropbox.com/scl/fo/t737rmz43wdyeaq03p3k5/AK0UPRFxvwz0FiQu4oa2vmI?rlkey=5cs7w4esi77tsz6if69dqbig7&st=juq9k0ng&dl=1">Download test images (.zip)</a>
