@@ -591,9 +591,11 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/38/21/4ea20ea23845d059eab7ffc9334ece3b598e42db424e4d193ee2f7105c3d/flyingcircus-0.1.4.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/41/51/607b87e1867df29696753b43dc66c328bcec55ffde969c204d89b1375c21/flyingcircus_numeric-0.1.1.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/54/70/e07c381e6488a77094f04c85c9caf1c8008cdc30778f7019bc52e5285ef0/gdown-5.2.0-py3-none-any.whl
-      - pypi: git+https://github.com/ChaoningZhang/MobileSAM.git#34bbbfdface3c18e5221aa7de6032d7220c6c6a1
+      - pypi: git+https://github.com/ChaoningZhang/MobileSAM.git#b01a9ccef3b9e10b099b544efe004d0871802c3b
       - pypi: https://files.pythonhosted.org/packages/9b/5d/f25ac7d4fb77cbd53ddc6d05d833c6bf52b12770a44fa9a447eed470ca9a/msgpack_numpy-0.4.8-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e2/3d/44e60142e058f7e41d0ab19e7f5cc9d77a00833fd6f0197dbbd4f13c0321/multimethod-2.0.2-py3-none-any.whl
+      - pypi: git+https://github.com/True-North-Intelligent-Algorithms/napari-ai-lab#7a1714b2ccdf7a46a1249fa66eb61767ab5f13e8
+      - pypi: git+https://github.com/True-North-Intelligent-Algorithms/napari-easy-augment-batch-dl.git#bcbf590a4e6dc553dc2d2ee3246c43dd6adcae05
       - pypi: https://files.pythonhosted.org/packages/db/94/22aab761b3d416bce02020d9ca98dc692427c2717b0325952e30ce41f83b/onnxsim-0.4.36-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/ae/3c/321ff3f370f5eabbccf553e79f9c067a0e469d0ee6fb87a7b071fa702bf7/raster_geometry-0.1.4.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/75/77/8e0c16abf151a1dd076b562febc0da2ecf1132b0b41826087af96f101f42/segment_anything-1.0-py3-none-any.whl
@@ -607,8 +609,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f9/d5/141f53d7c1eb2a80e6d3e9a390228c3222c27705cbe7f048d3623053f3ca/termcolor-3.2.0-py3-none-any.whl
       - pypi: git+https://github.com/True-North-Intelligent-Algorithms/tnia-python.git#f4b1ab083c49866393821c2e5eff5d1fb0a4c19e
       - pypi: https://files.pythonhosted.org/packages/e8/9e/ce231bd1d301c4d756a9caf5671895458aa1a77c98ae4276f140a47266c5/torchpack-0.3.1-py3-none-any.whl
-      - pypi: ../../../napari-ai-lab
-      - pypi: C:/Users/bnort/work/ImageJ2022/tnia/napari-easy-augment-batch-dl
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/_openmp_mutex-4.5-7_kmp_llvm.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/_python_abi3_support-1.0-hd8ed1ab_2.conda
@@ -1102,9 +1102,11 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/38/21/4ea20ea23845d059eab7ffc9334ece3b598e42db424e4d193ee2f7105c3d/flyingcircus-0.1.4.1-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/41/51/607b87e1867df29696753b43dc66c328bcec55ffde969c204d89b1375c21/flyingcircus_numeric-0.1.1.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/54/70/e07c381e6488a77094f04c85c9caf1c8008cdc30778f7019bc52e5285ef0/gdown-5.2.0-py3-none-any.whl
-      - pypi: git+https://github.com/ChaoningZhang/MobileSAM.git#34bbbfdface3c18e5221aa7de6032d7220c6c6a1
+      - pypi: git+https://github.com/ChaoningZhang/MobileSAM.git#b01a9ccef3b9e10b099b544efe004d0871802c3b
       - pypi: https://files.pythonhosted.org/packages/9b/5d/f25ac7d4fb77cbd53ddc6d05d833c6bf52b12770a44fa9a447eed470ca9a/msgpack_numpy-0.4.8-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e2/3d/44e60142e058f7e41d0ab19e7f5cc9d77a00833fd6f0197dbbd4f13c0321/multimethod-2.0.2-py3-none-any.whl
+      - pypi: git+https://github.com/True-North-Intelligent-Algorithms/napari-ai-lab#7a1714b2ccdf7a46a1249fa66eb61767ab5f13e8
+      - pypi: git+https://github.com/True-North-Intelligent-Algorithms/napari-easy-augment-batch-dl.git#bcbf590a4e6dc553dc2d2ee3246c43dd6adcae05
       - pypi: https://files.pythonhosted.org/packages/2e/a3/f6cad8499f375a3acc8a7837721f82860244656cf62984cf80ebe187cc68/onnxsim-0.4.36-cp311-cp311-macosx_10_15_universal2.whl
       - pypi: https://files.pythonhosted.org/packages/ae/3c/321ff3f370f5eabbccf553e79f9c067a0e469d0ee6fb87a7b071fa702bf7/raster_geometry-0.1.4.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/75/77/8e0c16abf151a1dd076b562febc0da2ecf1132b0b41826087af96f101f42/segment_anything-1.0-py3-none-any.whl
@@ -1118,8 +1120,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f9/d5/141f53d7c1eb2a80e6d3e9a390228c3222c27705cbe7f048d3623053f3ca/termcolor-3.2.0-py3-none-any.whl
       - pypi: git+https://github.com/True-North-Intelligent-Algorithms/tnia-python.git#f4b1ab083c49866393821c2e5eff5d1fb0a4c19e
       - pypi: https://files.pythonhosted.org/packages/e8/9e/ce231bd1d301c4d756a9caf5671895458aa1a77c98ae4276f140a47266c5/torchpack-0.3.1-py3-none-any.whl
-      - pypi: ../../../napari-ai-lab
-      - pypi: C:/Users/bnort/work/ImageJ2022/tnia/napari-easy-augment-batch-dl
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/win-64/_libavif_api-1.3.0-h57928b3_2.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/_openmp_mutex-4.5-2_gnu.conda
@@ -1563,9 +1563,11 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/41/51/607b87e1867df29696753b43dc66c328bcec55ffde969c204d89b1375c21/flyingcircus_numeric-0.1.1.4-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/54/70/e07c381e6488a77094f04c85c9caf1c8008cdc30778f7019bc52e5285ef0/gdown-5.2.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/27/e3/0e0014d6ab159d48189e92044ace13b1e1fe9aa3024ba9f4e8cf172aa7c2/jinxed-1.3.0-py2.py3-none-any.whl
-      - pypi: git+https://github.com/ChaoningZhang/MobileSAM.git#34bbbfdface3c18e5221aa7de6032d7220c6c6a1
+      - pypi: git+https://github.com/ChaoningZhang/MobileSAM.git#b01a9ccef3b9e10b099b544efe004d0871802c3b
       - pypi: https://files.pythonhosted.org/packages/9b/5d/f25ac7d4fb77cbd53ddc6d05d833c6bf52b12770a44fa9a447eed470ca9a/msgpack_numpy-0.4.8-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e2/3d/44e60142e058f7e41d0ab19e7f5cc9d77a00833fd6f0197dbbd4f13c0321/multimethod-2.0.2-py3-none-any.whl
+      - pypi: git+https://github.com/True-North-Intelligent-Algorithms/napari-ai-lab#7a1714b2ccdf7a46a1249fa66eb61767ab5f13e8
+      - pypi: git+https://github.com/True-North-Intelligent-Algorithms/napari-easy-augment-batch-dl.git#bcbf590a4e6dc553dc2d2ee3246c43dd6adcae05
       - pypi: https://files.pythonhosted.org/packages/c1/5c/aa277f45b0d8253027d1ce3269952e116b476985e5fb497e00ebd917ce29/onnxsim-0.4.36-cp311-cp311-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/ae/3c/321ff3f370f5eabbccf553e79f9c067a0e469d0ee6fb87a7b071fa702bf7/raster_geometry-0.1.4.2-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/75/77/8e0c16abf151a1dd076b562febc0da2ecf1132b0b41826087af96f101f42/segment_anything-1.0-py3-none-any.whl
@@ -1579,8 +1581,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/f9/d5/141f53d7c1eb2a80e6d3e9a390228c3222c27705cbe7f048d3623053f3ca/termcolor-3.2.0-py3-none-any.whl
       - pypi: git+https://github.com/True-North-Intelligent-Algorithms/tnia-python.git#f4b1ab083c49866393821c2e5eff5d1fb0a4c19e
       - pypi: https://files.pythonhosted.org/packages/e8/9e/ce231bd1d301c4d756a9caf5671895458aa1a77c98ae4276f140a47266c5/torchpack-0.3.1-py3-none-any.whl
-      - pypi: ../../../napari-ai-lab
-      - pypi: C:/Users/bnort/work/ImageJ2022/tnia/napari-easy-augment-batch-dl
 packages:
 - conda: https://conda.anaconda.org/conda-forge/win-64/_libavif_api-1.3.0-h57928b3_2.conda
   sha256: 472aa5e5a97a188c1f01e271a821b5a9dc871e93f7c58cfb7e89bdb6cd926d39
@@ -12066,7 +12066,7 @@ packages:
   - pkg:pypi/ml-dtypes?source=hash-mapping
   size: 241551
   timestamp: 1764068369398
-- pypi: git+https://github.com/ChaoningZhang/MobileSAM.git#34bbbfdface3c18e5221aa7de6032d7220c6c6a1
+- pypi: git+https://github.com/ChaoningZhang/MobileSAM.git#b01a9ccef3b9e10b099b544efe004d0871802c3b
   name: mobile-sam
   version: '1.0'
   requires_dist:
@@ -12261,10 +12261,9 @@ packages:
   purls: []
   size: 8513
   timestamp: 1760611251368
-- pypi: ../../../napari-ai-lab
+- pypi: git+https://github.com/True-North-Intelligent-Algorithms/napari-ai-lab#7a1714b2ccdf7a46a1249fa66eb61767ab5f13e8
   name: napari-ai-lab
-  version: 0.0.2.dev62+nogit.g21ee86122.d20251117
-  sha256: 3150a95528a2cf74f2c7b2acedf6397811aa18760044f5df4f528a08e2684fa1
+  version: 0.0.2.dev92+nogit.g7a1714b2c
   requires_dist:
   - numpy
   - magicgui
@@ -12272,7 +12271,6 @@ packages:
   - scikit-image
   - napari[all] ; extra == 'all'
   requires_python: '>=3.10'
-  editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/napari-base-0.6.6-pyhcf101f3_0.conda
   sha256: 3361b0b0191b92a1e307e227e67e14c2a4c320385c4b843d16891b5f97925b0f
   md5: ff73d4bb92566b10c92c4aa3da4d09c0
@@ -12339,10 +12337,9 @@ packages:
   - pkg:pypi/napari-console?source=hash-mapping
   size: 15655
   timestamp: 1760544595269
-- pypi: C:/Users/bnort/work/ImageJ2022/tnia/napari-easy-augment-batch-dl
+- pypi: git+https://github.com/True-North-Intelligent-Algorithms/napari-easy-augment-batch-dl.git#bcbf590a4e6dc553dc2d2ee3246c43dd6adcae05
   name: napari-easy-augment-batch-dl
   version: 0.0.6
-  sha256: c6c9db82b4d9d05772c47a72ceb6fa096a4ecdc1c293ac903f189eeb8e0e7154
   requires_dist:
   - numpy
   - magicgui
@@ -12356,7 +12353,6 @@ packages:
   - napari ; extra == 'testing'
   - pyqt5 ; extra == 'testing'
   requires_python: '>=3.9'
-  editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/napari-plugin-engine-0.2.0-pyha07c04f_3.conda
   sha256: 3df4923de1a5fe455619e3f447f990d63acf7dc2e4eb365b1ee4aa760bb4c87a
   md5: b4272a6d738f4c5058c469666df8c0e4

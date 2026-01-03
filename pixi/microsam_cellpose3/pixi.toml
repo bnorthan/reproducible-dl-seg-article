@@ -25,7 +25,7 @@ segment-everything = "*"
 mobile-sam = { git = "https://github.com/ChaoningZhang/MobileSAM.git"}
 
 # Use this to install from GitHub directly
-#napari-easy-augment-batch-dl = { git = "https://github.com/True-North-Intelligent-Algorithms/napari-easy-augment-batch-dl.git" }
+napari-easy-augment-batch-dl = { git = "https://github.com/True-North-Intelligent-Algorithms/napari-easy-augment-batch-dl.git" }
 
 # for specific commit
 #napari-easy-augment-batch-dl = { 
@@ -34,12 +34,12 @@ mobile-sam = { git = "https://github.com/ChaoningZhang/MobileSAM.git"}
 #    }
 
 # Use this to install from local folder in editable mode
-napari-easy-augment-batch-dl = { path = "C:/Users/bnort/work/ImageJ2022/tnia/napari-easy-augment-batch-dl", editable = true }
+#napari-easy-augment-batch-dl = { path = "C:/Users/bnort/work/ImageJ2022/tnia/napari-easy-augment-batch-dl", editable = true }
 
-#napari-ai-lab = { git = "https://github.com/True-North-Intelligent-Algorithms/napari-ai-lab" }
+napari-ai-lab = { git = "https://github.com/True-North-Intelligent-Algorithms/napari-ai-lab" }
 
 # comment this in if you want to local editable install
-napari-ai-lab = { path = "../../../napari-ai-lab", editable=true}
+#napari-ai-lab = { path = "../../../napari-ai-lab", editable=true}
 
 [target.linux-64.dependencies]
 pytorch-gpu = "*"

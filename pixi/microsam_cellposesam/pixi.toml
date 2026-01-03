@@ -17,15 +17,20 @@ ipykernel = "*"
 
 [pypi-dependencies]
 stringzilla = "==4.3.*"
-tnia-python = { git = "https://github.com/True-North-Intelligent-Algorithms/tnia-python.git" }
+#tnia-python = { git = "https://github.com/True-North-Intelligent-Algorithms/tnia-python.git" }
+tnia-python = { path = "../../../tnia-python", editable=true}
+
 appose = "*"
 PyQt5 = "*"
-segment-everything = "*"
 
-mobile-sam = { git = "https://github.com/ChaoningZhang/MobileSAM.git"}
+#segment-everything = "0.1.7"
+#segment-everything = { git = "https://github.com/True-North-Intelligent-Algorithms/segment-everything.git" }
+segment-everything = { path = "../../../segment-everything", editable=true}
+
+#mobile-sam = { git = "https://github.com/ChaoningZhang/MobileSAM.git"}
 
 # Use this to install from GitHub directly
-#napari-easy-augment-batch-dl = { git = "https://github.com/True-North-Intelligent-Algorithms/napari-easy-augment-batch-dl.git" }
+napari-easy-augment-batch-dl = { git = "https://github.com/True-North-Intelligent-Algorithms/napari-easy-augment-batch-dl.git" }
 
 # for specific commit
 #napari-easy-augment-batch-dl = { 
@@ -34,7 +39,7 @@ mobile-sam = { git = "https://github.com/ChaoningZhang/MobileSAM.git"}
 #    }
 
 # Use this to install from local folder in editable mode
-napari-easy-augment-batch-dl = { path = "C:/Users/bnort/work/ImageJ2022/tnia/napari-easy-augment-batch-dl", editable = true }
+#napari-easy-augment-batch-dl = { path = "C:/Users/bnort/work/ImageJ2022/tnia/napari-easy-augment-batch-dl", editable = true }
 
 #napari-ai-lab = { git = "https://github.com/True-North-Intelligent-Algorithms/napari-ai-lab" }
 
